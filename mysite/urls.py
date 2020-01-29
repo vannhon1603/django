@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^home/', views.index),
-    url(r'^fb/', include('fb.urls')),
+    # url(r'^fb/', include('fb.urls')),
 ]
